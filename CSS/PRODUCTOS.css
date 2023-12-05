@@ -1,0 +1,94 @@
+body{ background-image:url(../IMAGENES/Fondo%20achul.jpeg);
+margin: 0;
+font-family:"Comic Sans MS"; 
+font-size:35px;}
+
+div#fondo {
+	width: 300px;
+	height: 700px;
+	background-color: #009;
+}
+.titulo{
+	text-align:center;
+	font-size:25px;
+	padding-top:15px;
+	color:#F96;
+	
+}
+.slider-box {
+	width:1280px;
+	height:auto;
+	margin:10px auto 0;
+	overflow:hidden;
+}
+
+.slider-box ul {
+	display:flex;
+	padding:0;
+	width: 200%;
+	animation: slide 20s infinite alternate ease-in-out;
+	
+}
+.slider-box li {
+	width:100%;
+	list-style:none;
+	position:relative;
+	
+	}
+	
+.texto {
+	text-align: center;
+	padding: 0 10px;
+	color: #FFFFFF;
+	font-size: 20px;
+	width: 150px;
+	left: 80px;
+	
+}
+.texto h2 {
+	font-size: 45px;
+	margin-bottom: 45px;
+	color:#FFFFFF;
+	text-align:center;
+	padding: 0 25px;
+	width: 150px;
+	left: 80px;
+	
+}
+.slider-box div{
+	width: 98%;
+}
+@keyframes slide {
+	0% { margin-left:0;}
+	20% { margin-left:0;}
+	
+	25% {margin-left: -33%; }
+	45% {margin-left: -33%; }
+	
+	50% {margin-left: -66%; }
+	70% {margin-left: -66%; }
+	
+	75% {margin-left: -99%; }
+	100% {margin-left: -99%; }
+	
+}
+@media(max-width:991px) {
+	body {
+		padding:10px;
+	}
+	.slider-box {
+		width: 100%;
+	}
+	.texto {
+	top: 447px;
+	padding: 0 25px;
+	}
+	.texto h2 {
+		font-size: 35px;
+		margin-bottom: 15px;
+	}
+	.texto p {
+		font-size: 15px;
+	}
+}
+	
